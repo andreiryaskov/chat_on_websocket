@@ -1,5 +1,4 @@
 import React from 'react';
-import s from "./components/User/User.module.css";
 import './App.css';
 
 const App = () => {
@@ -44,9 +43,9 @@ const App = () => {
                 {
                     users.map((u, i) => {
                         return (
-                            <div className={s.user_wrapper} key={i}>
-                                <div className={s.user_img}>
-                                    <img src={u.photo}
+                            <div className={"user_wrapper"} key={i}>
+                                <div className={"user_img"}>
+                                    <img src={"photo"}
                                          alt={"user"}/>
                                 </div>
                                 <b>{u.name}</b>
